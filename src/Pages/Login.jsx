@@ -6,7 +6,7 @@ function Login() {
   const navigate = useNavigate();
 
   const user = {
-  email: "admin@test.com",
+  email: "iks@gmail.com",
   password: "1234",
 };
 
