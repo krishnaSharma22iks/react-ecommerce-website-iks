@@ -17,7 +17,7 @@ function Category() {
     <section   className="px-4 sm:px-10 py-2  flex flex-col">
       <BackBtn />
       <Zoom triggerOnce duration={1000}>
-      <h5 className=" border border-gray font-font2 p-2">
+      <h5 className=" border border-gray font-font4 p-2">
         {categoryName}
       </h5>
 
@@ -33,7 +33,7 @@ function Category() {
                   className="max-w-full max-h-full object-contain"
                 />
               </div>
-              <h1 className="font-font2 text-center py-3">
+              <h1 className="font-font4 text-center py-3">
                 {item.title}
               </h1>
             </div>

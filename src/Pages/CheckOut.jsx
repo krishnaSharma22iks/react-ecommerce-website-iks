@@ -43,7 +43,7 @@ const CheckOut = () => {
   };
 
   return (
-    <div className="max-w-5xl mx-auto px-4 py-10">
+    <div className="max-w-5xl mx-auto px-4 font-font4 py-10">
       <BackBtn />
       <Zoom triggerOnce duration={1000}>
       <h2 className="text-3xl font-bold mb-8">Checkout</h2>

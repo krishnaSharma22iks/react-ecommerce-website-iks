@@ -33,7 +33,7 @@ const ProductCard = ({btnTxt,title,img}) => {
     <>
     <section  className='px-4 sm:px-10 py-10  flex gap-2 flex-col'>
     <Fade direction="up" triggerOnce duration={1000}>
-      <h1 className='text-center text-2xl font-font2 p-10'>{title}</h1>
+      <h1 className='text-center text-2xl font-font4 p-10'>{title}</h1>
     
      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 mx-auto w-full items-stretch">
        {filterdProducts.map((item) => (
@@ -50,11 +50,11 @@ const ProductCard = ({btnTxt,title,img}) => {
 
             <div className="p-3 flex-1 flex flex-col justify-between">
               <div>
-                <h1 className="font-font2 text-base md:text-lg mb-2">{item.title}</h1>
-                <h5 className="font-font2 text-gray-700">${item.price}</h5>
+                <h1 className="font-font4 text-base md:text-lg mb-2">{item.title}</h1>
+                <h5 className="font-font4 text-gray-700">${item.price}</h5>
               </div>
 
-              <h5 className="font-font2 bg-gray-200 px-3 py-1 text-center mt-3">Saving {item.discountPercentage}%</h5>
+              <h5 className="font-font4 bg-gray-200 px-3 py-1 text-center mt-3">Saving {item.discountPercentage}%</h5>
             </div>
           </div>
         </Link>

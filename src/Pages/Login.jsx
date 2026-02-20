@@ -25,7 +25,7 @@ function Login() {
   };
 
   return (
-    <div className="min-h-screen flex items-center justify-center bg-black text-white">
+    <div className="min-h-screen flex items-center justify-center bg-black text-white px-5">
       
       {/* Card */}
       <div className="w-96 p-8 rounded-2xl bg-white/10 backdrop-blur-lg shadow-2xl border border-white/20 transition-all duration-500 hover:scale-105">

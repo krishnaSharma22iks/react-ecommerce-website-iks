@@ -35,7 +35,7 @@ const SingleProduct = () => {
       && item.id !== product.id).slice(0,4)
   return (
     
-     <div className="max-w-6xl mx-auto p-6 font-font2">
+     <div className="max-w-6xl mx-auto p-6 font-font4">
       <BackBtn />
       <Zoom triggerOnce duration={1000}>
   <div className="grid grid-cols-1 md:grid-cols-2 gap-10">
@@ -75,7 +75,7 @@ const SingleProduct = () => {
         </span>
       </div>
 
-      <div className="text-sm text-gray-500 font-font2">
+      <div className="text-sm text-gray-500 font-font4">
         <p className="font-bold py-2 flex items-center gap-3"><span><TbBrandSketch /></span>Brand: <span className="font-medium">{product.brand}</span></p>
         <p className="font-bold py-2 flex items-center gap-3"><span><TbCategory2 /></span>Category: <span className="font-medium">{product.category}</span></p>
         <p className="font-bold py-2 flex items-center gap-3"><span><CiStar /></span>Rating: <span className="font-medium">{product.rating}</span></p>
@@ -120,7 +120,7 @@ const SingleProduct = () => {
                   className="max-w-full max-h-full object-contain"
                 />
               </div>
-              <h1 className="font-font2 text-center py-3">
+              <h1 className="font-font4 text-center py-3">
                 {item.title}
               </h1>
             </div>

@@ -37,7 +37,7 @@ const CategoriesSection = () => {
     <>
     <section className='px-4 sm:px-10 py-10 bg-white flex gap-2 flex-col'>
       {/* <BackBtn /> */}
-      <h1 className='text-center text-2xl font-font2 p-10'>Select Your Category </h1>
+      <h1 className='text-center text-2xl font-font4 p-10'>Select Your Category </h1>
     
        <Zoom triggerOnce duration={1000}>
      <div
@@ -54,7 +54,7 @@ const CategoriesSection = () => {
             />
           </div>
 
-          <h1 className="font-font2 text-center py-3">
+          <h1 className="font-font4 text-center py-3">
             {item.category}
           </h1>
         </div>

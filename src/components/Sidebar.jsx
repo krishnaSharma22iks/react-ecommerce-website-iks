@@ -19,7 +19,7 @@ export default function SideBar({ open, setOpen }) {
 
       {/* Sidebar */}
       <div
-        className={`fixed top-0 left-0 h-screen w-full font-font2 sm:w-80 bg-white text-black p-6 z-50 transform transition-transform duration-300 flex flex-col ${
+        className={`fixed top-0 left-0 h-screen w-full font-font4 sm:w-80 bg-white text-black p-6 z-50 transform transition-transform duration-300 flex flex-col ${
           open ? "translate-x-0" : "-translate-x-full"
         }`}
       >

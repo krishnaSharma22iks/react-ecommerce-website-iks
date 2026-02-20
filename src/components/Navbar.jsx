@@ -54,7 +54,7 @@ export default function Navbar() {
 
           {/* Right */}
           <div className="flex-1 flex items-center justify-end">
-            <div className="flex items-center gap-3 sm:gap-4 md:gap-5 font-font2">
+            <div className="flex items-center gap-3 sm:gap-4 md:gap-5 font-font4">
 
               <h5 className="hidden sm:block hover:text-green-800">
                 <Link to="/contact">Call us</Link>
